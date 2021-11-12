@@ -1,0 +1,211 @@
+<html>
+<head>
+    <title>ATTENDANCE 2.0</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+
+    
+    
+    
+    
+    <style>
+      
+  ul li a:hover {
+  color:red !important;
+}
+        ul li a:active{
+            color:chartreuse !important;
+        }
+        
+        
+        
+        .container2{
+            background-color: whitesmoke
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color:black;
+            width:1300px;
+            height:400px;
+            text-align:match-parent;
+            padding-top: 10px;
+            font-size: 40;
+}
+        
+        .container3{
+            background-image: url("back.jpg");
+            width:1300px;
+            height:400;
+            color:white;
+
+        }
+        
+        
+        
+        .navbar{
+       margin-bottom: 0!important;
+    }
+        body{
+            background-color: white;
+            
+        }
+        footer{
+            background-color:whitesmoke;
+        }
+        div{
+  display:inline-block;
+  padding:0px;
+  margin-left:-4px;
+}
+
+        
+        
+        #respond {
+  margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'], 
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
+}
+      
+       
+           
+        
+    </style>
+</head>
+    
+<body style="overflow-x: hidden;">
+    
+    <header>
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="color:red">FRS</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="main.html">Home</a></li>
+      <li><a href="face_reg.html">Face Register</a></li>
+      <li><a href="#">Mark Attendance</a></li>
+      <li><a href="#">Report</a></li>
+      
+    </ul>
+      
+      
+  </div>
+</nav>
+    
+    </header>
+    
+  
+    
+    <div class="container2" >
+        <h2 style="font-family: 'Crete Round', serif;font-family: 'Fira Sans Condensed', sans-serif;text-align:center;font-size:43px">Face Recognition Based Attendance System</h2>
+        <br>
+        <img src="{{url_for('static', filename='image1.png')}}" align="middle" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;height:300px;border-radius:80px;" />
+    </div>
+    
+    
+    
+    
+  <br><br><br><br><br><br><br><br>
+    
+     <div class="bw" >
+                <div class="row" >
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="aboutus" style="border: 2px solid black;border-radius: 25px;background-color: #DEDEDE">
+                            
+                            <center><h3 class="sub_heading" style="padding-top: 20px"><b>How does it work?</b></h3></center><br>
+                        <p style="padding-left:50px;padding-right:40px;padding-bottom:20px;font-size:20px;font-family: 'Fira Sans Condensed', sans-serif;"><iframe width="580" height="250px" src="https://www.youtube.com/embed/agGEDdj05U0" style="padding-left: 210px;border:none;" >
+                            </iframe><br><br>
+A facial recognition system uses biometrics to map facial features from a photograph or video. It compares the information with a database of known faces to find a match.
+                            </p>
+
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+    
+    <br><br><br><br>
+    
+    
+    
+    
+ <div class="bw" >
+                <div class="row" >
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="aboutus" style="border: 2px solid black;border-radius: 25px;background-color: #DEDEDE">
+                            <center><h3 class="sub_heading" style="padding-top: 20px"><b>Advantages</b></h3></center><br>
+                        <p style="padding-left:50px;padding-right:40px;padding-bottom:20px;font-size:20px;font-family: 'Fira Sans Condensed', sans-serif;"><iframe width="580" height="250px" src="https://www.youtube.com/embed/fxa1-UF4L7o" style="padding-left: 210px;border:none;">
+</iframe><br><br>One of the biggest pros of facial recognition technology is that it enhances safety and security. From government agencies to personal use, there is an increasing demand for advanced security and surveillance systems</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+<br><br><br>
+    
+
+ 
+    
+     
+    
+    
+    <br><br><br>
+    
+    
+<footer style="background-color: #EEEEEE;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  color: black;">
+<p>Contact</p>
+  <p style="font-size:14px">Vellore Institute of Technology, Vellore, Tamil Nadu-632014</p>
+  <p style="font-size:14px">adityak0308@gmail.com</p>
+  <p style="font-size:14px">+91 8800500413</p>
+</footer>
+
+    
+</body>
+
+</html>

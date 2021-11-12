@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<style>
+body{
+    
+    background-size: cover;
+    background-position: center;
+    background-color:#FFF3E7;
+    overflow-x: hidden;
+} 
+    .signup-box{
+        max-width: 700px;
+        float: none;
+        margin: 150px auto;
+    }
+    .login-left{
+        background: rgba(211,211,211,0.5);
+        padding:30px;
+    }
+    .form-control{
+        background-color: transparent !important;
+    }
+    .test{
+        text-align:center;
+        padding-top:70px;
+    }
+    
+</style>
+</head>
+<body style="background-image: url({{ url_for('static', filename='login_back_3.jpg') }})">
+<div class="test">
+<h2 style="font-family: 'Acme', sans-serif;font-size: 50"> Face Recogntion Based Attendance System </h2>
+</div>
+<div class="container">
+<div class="signup-box" style="margin-left:380px;margin-top:70px">
+<div class="row">
+    <div class="col-md-6 signup-left" style="background: rgba(211,211,211,0.5);
+        padding:30px;">
+        <h2> Sign Up</h2>
+        <form method="POST" action="">
+        <div class="form-group">
+        <label>Username</label> 
+        <input type="text" name="name" class="form-control" required>
+        </div>
+        
+        <div class="form-group">
+        <label>Password</label> 
+        <input type="password" name="password" class="form-control" required>
+        </div>
+         <button type="submit" class="btn btn-primary">Submit</button>   
+        
+        </form>
+     
+    </div>
+   
+    
+    
+    
+    
+</div>  
+    </div>
+    
+</div>
+<br>
+<footer style="background-color: #EEEEEE;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  color: black;">
+<p>Contact</p>
+  <p style="font-size:14px">Vellore Institute of Technology, Vellore, Tamil Nadu-632014</p>
+  <p style="font-size:14px">adityak0308@gmail.com</p>
+  <p style="font-size:14px">+91 8800500413</p>
+</footer>
+</body>
+</html>
